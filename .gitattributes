@@ -1,0 +1,3 @@
+* text=auto eol=lf
+tests/Plagx.Preflight.Tests/fixtures/** -text
+tests/Plagx.Preflight.Tests/parity/** -text

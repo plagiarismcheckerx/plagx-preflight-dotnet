@@ -1,0 +1,31 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <LangVersion>latest</LangVersion>
+    <RootNamespace>Plagx.Preflight</RootNamespace>
+    <GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+    <PackageId>Plagx.Preflight</PackageId>
+    <Version>0.1.2</Version>
+    <Title>Plagx Preflight: free draft and grammar checker</Title>
+    <Authors>Plagiarism Checker X</Authors>
+    <Company>Plagiarism Checker X</Company>
+    <Copyright>Copyright (c) 2026 Plagiarism Checker X</Copyright>
+    <Description>Free draft checker for .NET: word count, citation and reference list checks, punctuation and basic grammar suggestions, readability stats. Runs offline. By Plagiarism Checker X.</Description>
+    <PackageTags>draft-checker;essay-checker;grammar-checker;word-count;citation-checker;reference-list;apa;mla;readability;flesch;punctuation;academic-writing;students</PackageTags>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageProjectUrl>https://github.com/plagiarismcheckerx/plagx-preflight-dotnet</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/plagiarismcheckerx/plagx-preflight-dotnet.git</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageReleaseNotes>https://github.com/plagiarismcheckerx/plagx-preflight-dotnet/blob/main/CHANGELOG.md</PackageReleaseNotes>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
+
+</Project>
