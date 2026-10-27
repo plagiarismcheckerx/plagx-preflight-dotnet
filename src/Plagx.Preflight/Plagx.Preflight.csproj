@@ -9,7 +9,7 @@
     <GenerateDocumentationFile>true</GenerateDocumentationFile>
 
     <PackageId>Plagx.Preflight</PackageId>
-    <Version>0.1.2</Version>
+    <Version>0.1.3</Version>
     <Title>Plagx Preflight: free draft and grammar checker</Title>
     <Authors>Plagiarism Checker X</Authors>
     <Company>Plagiarism Checker X</Company>

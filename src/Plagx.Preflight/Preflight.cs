@@ -7,7 +7,7 @@ namespace Plagx.Preflight;
 public static class Preflight
 {
     /// <summary>Library version.</summary>
-    public const string Version = "0.1.2";
+    public const string Version = "0.1.3";
 
     /// <summary>Check groups. <c>"passive-voice"</c> is off by default.</summary>
     public static readonly IReadOnlyList<string> AllChecks = new[] { "length", "references", "punctuation", "grammar", "passive-voice" };
